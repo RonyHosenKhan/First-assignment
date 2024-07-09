@@ -37,7 +37,7 @@ text-align: left;
 
 }
 .sec1{
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url("assets/Hero-bg.png");
    margin: 0 auto;
    text-align: center;
 }
