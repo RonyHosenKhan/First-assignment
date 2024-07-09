@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 nav ul {
     display: flex;
    
@@ -14,7 +15,7 @@ ul{
 .list1{
 margin: 25px 25px 25px 0px;
 color: rgb(9, 11, 17);
-font-family: Azeret Mono;
+font-family: "Open Sans", sans-serif;
 font-size: 30px;
 font-weight: 800;
 line-height: 33px;
@@ -47,18 +48,19 @@ text-align: left;
 }
 .h11{
      color: rgb(11, 14, 21);
-font-family: Azeret Mono;
+font-family: "Open Sans", sans-serif;
 font-size: 38px;
 font-weight: 800;
 line-height: 70px;
 letter-spacing: 0%;
 text-align: center;
+opacity: 0.8;
 }
 .h41{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
+font-family: "Open Sans", sans-serif;
+font-size: 17px;
+font-weight: 450;
 line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
@@ -67,7 +69,7 @@ opacity: 0.9;
 }
 .btn2{
     padding: 21px 24px 21px 24px;
-    font-family: Azeret Mono;
+    font-family: "Open Sans", sans-serif;
     letter-spacing: 0%;
     font-weight: 700;
     margin-top: 10px;
@@ -87,17 +89,18 @@ background: rgb(13, 19, 33);
 }
 .h12{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
+font-family: "Open Sans", sans-serif;
 font-size: 32px;
 font-weight: 800;
 line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
  padding-top: 40px;
+ opacity: 0.8;
 }
 .h42{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
+font-family: "Open Sans", sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
@@ -121,16 +124,17 @@ opacity: 0.9;
 }
 .h13{
  color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
+font-family: "Open Sans", sans-serif;
 font-size: 24px;
 font-weight: 800;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
+
 }
 .h43{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
+font-family: "Open Sans", sans-serif;
 font-size: 16px;
 font-weight: 350;
 line-height: 26px;
@@ -143,6 +147,98 @@ border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
 font-family:Azeret Mono ;
 font-weight: 700;
-font-size: 16px;
+font-size: 18px;
 margin-top: 10px;
 }
+.sec3{
+    margin: 0 auto;
+    text-align: center;
+}
+.h15{
+    color: rgb(26, 29, 37);
+font-family: "Open Sans", sans-serif;
+font-size: 38px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+}
+.h44{
+    color: rgb(13, 19, 33);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.idiv{
+    border: 0.5px solid rgb(160, 156, 156);
+    margin-left: 340px;
+    margin-right:340px ;
+    border-radius: 16px;
+    margin-top: 40px;
+}
+.ifm{
+    padding: 35px;
+}
+.additional{
+    margin-top: 150px;
+}
+.Box-parent{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-around;
+}
+.h16{
+    color: rgb(13, 19, 33);
+font-family: "Open Sans", sans-serif;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.8;
+}
+.h45{
+    color: rgb(13, 19, 33);
+font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.ancor{
+    color: rgb(13, 19, 33);
+font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+
+}
+.box-div1{
+    background: rgba(255, 76, 30, 0.05);
+  border-radius: 18px;
+}
+.box-div{
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+ 
+}
+.box-div2{
+    background: rgba(0, 76, 232, 0.05);
+    border-radius: 18px;
+
+  }
+.box-div3{
+    background: rgba(106, 104, 95, 0.05);
+    border-radius: 18px;
+  }
