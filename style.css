@@ -174,14 +174,16 @@ opacity: 0.8;
     text-align: center;
 }
 .idiv{
+    margin: 0 auto;
     border: 0.5px solid rgb(160, 156, 156);
-    margin-left: 340px;
-    margin-right:340px ;
     border-radius: 16px;
     margin-top: 40px;
+    height: 570px;
+    width: 1150px;
+
 }
 .ifm{
-    padding: 35px;
+    padding: 10px;
 }
 .additional{
     margin-top: 150px;
